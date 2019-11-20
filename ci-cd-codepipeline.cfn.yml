@@ -99,7 +99,7 @@ Metadata:
       KubectlRoleName:
         default: kubectl IAM role
       EksClusterName:
-        default: simple-jwt-apiEKS cluster name
+        default: EKS cluster name
 
 
 Resources:
