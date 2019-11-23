@@ -1,5 +1,6 @@
 '''
 Tests for jwt flask app.
+deploy
 '''
 import os
 import json
