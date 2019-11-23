@@ -10,4 +10,4 @@ RUN pip install gunicorn
 RUN pip install pytest
 
 
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["gunicorn", "-b", ":8080", "main:APP"]
